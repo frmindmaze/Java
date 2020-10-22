@@ -1,0 +1,66 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("https://hookagency.com/wp-content/uploads/2015/11/epic-blue-green-gradient-ui-background.jpg");
+}
+
+.container{
+    background: teal;
+    width: 400px;
+    max-width: 500px;
+    height: 300px;
+    max-height: 500px;
+    border-radius: 5px;
+    margin: 100px auto;
+}
+
+.title {
+    text-align: center;
+    background: white;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px 5px 0px 0px;
+    color: teal;
+    font-size: large;
+    padding: auto;
+}
+
+.formDiv{ 
+    margin: 10px 10px;
+    align-items: center;
+    
+}
+
+.form{
+    margin: 20px 10px;
+}
+
+.text{
+    width: 90%;
+    height: 20px;
+    margin: 10px 10px;
+    color: darkslategrey;
+    font-size: large;
+}
+
+.lab{
+    margin: 10px 15px;
+    color: white;
+    font-size: large;
+}
+
+.btn{
+    margin: 10PX 100px;
+    align-self: center;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: large;
+}
+
+.btn:hover{
+    background: darkslategrey;
+    color: white;
+}
