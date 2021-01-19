@@ -1,1 +1,14 @@
 https://learndevtestops.com/2019/10/04/advanced-testing-parallelisation-technique-for-devops-pipeline/
+
+
+Dockerfile: 
+FROM maven:3-6-0-jdk-8-alphine
+#coping src of your framework
+COPY src /home/SeleniumTestFramework/src
+#coping pom file of your framework
+COPY pom.xml /home/SeleniumTestFramework
+#coping testing.xml file of your framework
+COPY testing.xml /home/SeleniumTestFramework
+
+#running actual command
+RUN mvn -f /home/SeleniumTestFramework/pom.xml clean test -DskipTests=true
